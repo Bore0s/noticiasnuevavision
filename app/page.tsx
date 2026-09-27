@@ -18,7 +18,7 @@ export default function Page() {
         {homeSections.map((slug) => {
           const section = getSection(slug)
           if (!section) return null
-          const items = getBySection(slug).filter((a) => !a.featured)
+          const items = getBySection(slug).filter((article) => slug === "internacional" || !article.featured)
           if (items.length === 0) return null
           return (
             <NewsGrid
