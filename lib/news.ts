@@ -135,7 +135,6 @@ export const articles: Article[] = [
     author: "Adrián Fernández",
     date: "1 de septiembre de 2026",
     readTime: "5 min de lectura",
-    featured: true,
     keywords: ["Turquía", "Arabia Saudita", "Pakistán", "Medio Oriente", "Defensa"],
     body: [
       "El 7 de agosto de 2026, Turquía, Arabia Saudita y Pakistán firmaron el Pacto de La Meca, una alianza trilateral de seguridad y defensa mutua rubricada por los líderes de las tres naciones musulmanas en el Palacio Al-Safa de La Meca. El acuerdo marca un hito en la reconfiguración de las alianzas geopolíticas de Oriente Medio y del mundo islámico.",
@@ -582,7 +581,7 @@ export const articles: Article[] = [
       "La influencer Zully se casó a los 21 años con un joven creador de contenido en Puruchuco, Ate, en una ceremonia que estuvo marcada por la presencia de fans y por la irrupción del exchico reality Piero Arenas.",
       "Zully sorprendió a sus seguidores al contraer matrimonio con el popular streamer mexicano Nando, a quien, según reveló, conoció hace apenas tres meses. La boda simbólica reunió a los padres de la tiktoker y a otros influencers reconocidos.",
       "La ceremonia, transmitida en vivo por el canal de Kick de Zully y que superó el millón de visualizaciones, vivió un momento polémico cuando dos influencers irrumpieron para oponerse a la unión y exponer al mexicano.",
-      "Según el exchico reality, el extranjero conversó con su exnovia antes de la boda. Nando admitió que sí lo hizo, pero aclaró que fue para contarle sobre su nueva etapa personal. Posteriormente, el personal de seguridad retiró a los dos influencers y la ceremonia continuó.",
+      "Según el exchico reality, el extranjero conversó con su exnovia antes de la boda. Nando admitió que sí lo hizo, pero aclar�� que fue para contarle sobre su nueva etapa personal. Posteriormente, el personal de seguridad retiró a los dos influencers y la ceremonia continuó.",
       "Abigail Sulamita Salazar Cotrina, nombre real de Zully, acumula más de 3 millones de seguidores solo en TikTok y se desempeña también como empresaria. Su esposo ‘Nando’ es un influencer muy conocido en México.",
     ],
   },
@@ -887,6 +886,7 @@ export const articles: Article[] = [
     author: "Corresponsalía Internacional",
     date: "21 de septiembre de 2026",
     readTime: "5 min de lectura",
+    featured: true,
     keywords: ["Guerra en Ucrania", "Rusia", "Moscú", "Drones", "Volodímir Zelenski", "Elecciones rusas"],
     body: [
       "El conflicto armado en Europa Oriental ha experimentado un dramático incremento en su intensidad durante las últimas horas. En coincidencia con el último día de las elecciones parlamentarias en Rusia, las fuerzas armadas ucranianas desplegaron uno de los mayores ataques con aeronaves no tripuladas registrados desde el inicio de la contienda, alcanzando instalaciones estratégicas en la región capitalina moscovita y otras provincias del país.",
@@ -936,7 +936,7 @@ export const articles: Article[] = [
     ],
   },
 
-  // ───────────────────────── CINE ─────────────────────────
+  // ───────���───────────────── CINE ─────────────────────────
   {
     slug: "brad-pitt-cliff-booth-david-fincher",
     section: "cine",
