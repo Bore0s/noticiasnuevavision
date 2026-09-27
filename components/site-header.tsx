@@ -1,6 +1,7 @@
 import Link from "next/link"
 
 const nav = [
+  { label: "Inicio", href: "/" },
   { label: "Política", href: "/seccion/politica" },
   { label: "Nacional", href: "/seccion/nacional" },
   { label: "Economía", href: "/seccion/economia" },
