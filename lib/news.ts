@@ -815,10 +815,10 @@ export const articles: Article[] = [
 
   // ───────────────────────── NACIONAL ─────────────────────────
   {
-    slug: "moquegua-inia-protege-olivo",
-    section: "nacional",
-    title: "Moquegua: INIA protege cultivos de olivo ante El Niño",
-    summary: "El INIA inició la transferencia de tecnologías agrícolas a productores de olivo de Moquegua para reducir el impacto de las altas temperaturas asociadas al fenómeno El Niño, buscando conservar la calidad del suelo e incrementar la cosecha.",
+slug: "moquegua-inia-protege-olivo",
+  section: "nacional",
+  title: "Moquegua: INIA protege cultivos de olivo ante El Niño",
+ summary: "El INIA capacitó a productores de olivo de Moquegua en técnicas para proteger sus cultivos ante El Niño, cuidar el suelo y mejorar la cosecha.",
     image: "/news/moquegua-inia-protege-olivo.png",
     imageAlt: "Productores de olivo de Moquegua recibiendo capacitación técnica en el campo",
     author: "Jade Villodas",
@@ -877,10 +877,10 @@ export const articles: Article[] = [
 
   // ───────────────────────── INTERNACIONAL ─────────────────────────
   {
-    slug: "escalada-belica-europa-oriental",
-    section: "internacional",
-    title: "Escalada bélica en Europa Oriental: Ucrania asesta su mayor ataque a Moscú",
-    summary: "La tensión entre ambas naciones alcanzó un nuevo pico tras una ofensiva sin precedentes con más de 1.600 drones sobre territorio ruso, seguida por una masiva represalia aérea del Kremlin contra centros logísticos y energéticos ucranianos.",
+slug: "escalada-belica-europa-oriental",
+  section: "internacional",
+  title: "Escalada bélica en Europa Oriental: Ucrania asesta su mayor ataque a Moscú",
+  summary: "Ucrania lanzó más de 1.600 drones contra Rusia. Moscú respondió con ataques a centros logísticos y energéticos ucranianos.",
     image: "/news/escalada-belica-ucrania-rusia.png",
     imageAlt: "Rescatistas ucranianos tras un ataque ruso contra un edificio en Zaporiyia",
     author: "Adrián Fernández",

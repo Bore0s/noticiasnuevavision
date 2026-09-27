@@ -34,7 +34,7 @@ export function FeaturedStory({ article }: { article: Article }) {
           <h3 className="mt-3 font-headline text-3xl font-black leading-tight text-balance text-foreground transition-colors group-hover:text-primary sm:text-4xl md:text-5xl">
             {article.title}
           </h3>
-          <p className="mt-4 line-clamp-4 font-body text-lg leading-relaxed text-pretty text-muted-foreground">
+          <p className="summary-clamp-4 mt-4 font-body text-lg leading-relaxed text-pretty text-muted-foreground">
             {article.summary}
           </p>
           <p className="mt-4 font-meta text-xs uppercase tracking-[0.1em] text-muted-foreground">
