@@ -22,7 +22,7 @@ export function NewsCard({ article }: { article: Article }) {
             {article.title}
           </Link>
         </h3>
-        <p className="mt-3 flex-1 font-body text-sm leading-relaxed text-pretty text-muted-foreground">
+        <p className="mt-3 line-clamp-4 flex-1 font-body text-sm leading-relaxed text-pretty text-muted-foreground">
           {article.summary}
         </p>
         <p className="mt-4 font-meta text-[11px] uppercase tracking-[0.1em] text-muted-foreground">
