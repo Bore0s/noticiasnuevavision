@@ -29,7 +29,7 @@ export function SiteHeader() {
           >
             Nueva Visión
           </Link>
-          <p className="font-meta text-sm italic text-muted-foreground">
+          <p className="font-body text-sm italic text-muted-foreground">
             Información clara, visión nueva
           </p>
         </div>
