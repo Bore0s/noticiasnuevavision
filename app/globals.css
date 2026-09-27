@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 @import 'tailwindcss';
 @import 'tw-animate-css';
 @import 'shadcn/tailwind.css';
@@ -170,7 +171,7 @@
   --font-headline: 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
   --font-body: Georgia, 'Times New Roman', serif;
   --font-meta: Arial, Helvetica, sans-serif;
-  --font-masthead: 'Palatino Linotype', Georgia, serif;
+  --font-masthead: 'Playfair Display', Georgia, serif;
 }
 
 @theme inline {

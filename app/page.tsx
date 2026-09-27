@@ -4,7 +4,7 @@ import { FeaturedStory } from "@/components/featured-story"
 import { NewsGrid } from "@/components/news-grid"
 import { getFeatured, getBySection, getSection } from "@/lib/news"
 
-const homeSections = ["internacional", "nacional", "deportes", "espectaculos", "politica", "economia"]
+const homeSections = ["politica", "nacional", "economia", "internacional", "espectaculos", "deportes", "cine"]
 
 export default function Page() {
   const featured = getFeatured()

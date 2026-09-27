@@ -15,19 +15,19 @@ export function FeaturedStory({ article }: { article: Article }) {
         Primera plana
       </h2>
 
-      <Link href={`/noticia/${article.slug}`} className="group block">
-        <div className="relative aspect-[16/9] w-full overflow-hidden bg-muted">
+      <Link href={`/noticia/${article.slug}`} className="group grid items-center gap-6 md:grid-cols-2 md:gap-10">
+        <div className="relative aspect-[16/10] w-full overflow-hidden bg-muted md:aspect-[4/3]">
           <Image
             src={article.image || "/placeholder.svg"}
             alt={article.imageAlt}
             fill
             priority
-            sizes="(max-width: 768px) 100vw, 1152px"
+            sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover transition-transform duration-500 group-hover:scale-[1.02]"
           />
         </div>
 
-        <div className="mx-auto mt-6 max-w-3xl text-center">
+        <div className="py-2 text-left md:py-6">
           <span className="font-meta text-[11px] font-bold uppercase tracking-[0.18em] text-primary">
             {section?.name ?? "Actualidad"}
           </span>

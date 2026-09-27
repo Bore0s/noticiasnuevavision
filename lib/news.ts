@@ -28,13 +28,13 @@ export type Editor = {
   note?: string
 }
 
-// El orden de las secciones sigue el cintillo que aparece debajo del título "Nueva Visión".
+// El orden de las secciones sigue la navegación del periódico.
 export const sections: Section[] = [
   {
-    slug: "internacional",
-    name: "Internacional",
+    slug: "politica",
+    name: "Política",
     description:
-      "Las claves de lo que ocurre en el mundo: conflictos, diplomacia y los grandes acontecimientos que marcan la agenda global.",
+      "Decisiones de gobierno, Congreso y el pulso del poder, explicados con contexto y rigor.",
   },
   {
     slug: "nacional",
@@ -43,10 +43,16 @@ export const sections: Section[] = [
       "La actualidad del país al detalle: sociedad, emergencias, regiones y los hechos que definen el día a día de la ciudadanía.",
   },
   {
-    slug: "deportes",
-    name: "Deportes",
+    slug: "economia",
+    name: "Economía",
     description:
-      "Competiciones, clásicos y protagonistas del deporte peruano e internacional, con crónicas de cada jornada.",
+      "Mercados, crecimiento, exportaciones y las cifras que afectan al bolsillo y al futuro del país.",
+  },
+  {
+    slug: "internacional",
+    name: "Internacional",
+    description:
+      "Las claves de lo que ocurre en el mundo: conflictos, diplomacia y los grandes acontecimientos que marcan la agenda global.",
   },
   {
     slug: "espectaculos",
@@ -55,22 +61,16 @@ export const sections: Section[] = [
       "Música, televisión, conciertos y la conversación social que marca la agenda cultural.",
   },
   {
+    slug: "deportes",
+    name: "Deportes",
+    description:
+      "Competiciones, clásicos y protagonistas del deporte peruano e internacional, con crónicas de cada jornada.",
+  },
+  {
     slug: "cine",
     name: "Cine",
     description:
       "Estrenos, tráileres, festivales y las grandes producciones de la pantalla grande.",
-  },
-  {
-    slug: "politica",
-    name: "Política",
-    description:
-      "Decisiones de gobierno, Congreso y el pulso del poder, explicados con contexto y rigor.",
-  },
-  {
-    slug: "economia",
-    name: "Economía",
-    description:
-      "Mercados, crecimiento, exportaciones y las cifras que afectan al bolsillo y al futuro del país.",
   },
 ]
 
@@ -768,7 +768,7 @@ export const articles: Article[] = [
       "Las exportaciones de los cuatro países alcanzaron US$187.461 millones, un crecimiento de 11,5% frente al periodo anterior. Colombia ocupó el segundo lugar con US$50.205 millones, seguida de Ecuador con US$37.152 millones y Bolivia con US$9.633 millones.",
       "El desempeño peruano estuvo impulsado por sus sectores tradicionales. Las ventas mineras llegaron a US$59.450 millones, mientras que los envíos agropecuarios sumaron US$15.066 millones y los pesqueros alcanzaron US$4.654 millones.",
       "China se consolidó como el principal destino de las exportaciones del bloque, con el 22,1% de las ventas externas, seguido de Estados Unidos (17,3%) y la Unión Europea (13,2%).",
-      "El comercio entre los propios países andinos también avanz����: las ventas intracomunitarias llegaron a US$9.842 millones, un aumento de 8%. Perú registró el mayor crecimiento de sus exportaciones hacia Bolivia, Colombia y Ecuador, con 14,4%.",
+      "El comercio entre los propios países andinos también avanz������: las ventas intracomunitarias llegaron a US$9.842 millones, un aumento de 8%. Perú registró el mayor crecimiento de sus exportaciones hacia Bolivia, Colombia y Ecuador, con 14,4%.",
       "Finalmente, las importaciones del bloque sumaron US$177.420 millones, dejando un superávit comercial de US$10.041 millones, el segundo año consecutivo con saldo favorable para la Comunidad Andina.",
     ],
   },

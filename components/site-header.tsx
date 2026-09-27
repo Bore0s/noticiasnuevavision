@@ -1,18 +1,18 @@
 import Link from "next/link"
 
 const nav = [
-  { label: "Inicio", href: "/" },
-  { label: "Internacional", href: "/seccion/internacional" },
-  { label: "Nacional", href: "/seccion/nacional" },
-  { label: "Deportes", href: "/seccion/deportes" },
-  { label: "Espectáculos", href: "/seccion/espectaculos" },
   { label: "Política", href: "/seccion/politica" },
+  { label: "Nacional", href: "/seccion/nacional" },
   { label: "Economía", href: "/seccion/economia" },
+  { label: "Internacional", href: "/seccion/internacional" },
+  { label: "Espectáculos", href: "/seccion/espectaculos" },
+  { label: "Deportes", href: "/seccion/deportes" },
+  { label: "Cine", href: "/seccion/cine" },
   { label: "¿Quiénes somos?", href: "/quienes-somos" },
 ]
 
 export function SiteHeader() {
-  const today = "Viernes, 14 de agosto de 2026"
+  const today = "Martes, 29 de septiembre de 2026"
 
   return (
     <header className="border-b border-border bg-background">
@@ -25,12 +25,12 @@ export function SiteHeader() {
         <div className="flex flex-col items-center gap-1 py-6 text-center">
           <Link
             href="/"
-            className="font-masthead text-5xl leading-none tracking-tight text-foreground sm:text-6xl md:text-7xl"
+            className="font-masthead text-5xl font-bold leading-none tracking-tight text-foreground sm:text-6xl md:text-7xl"
           >
             Nueva Visión
           </Link>
-          <p className="font-meta text-[11px] uppercase tracking-[0.35em] text-muted-foreground">
-            Internacional · Nacional · Cultura
+          <p className="font-meta text-sm italic text-muted-foreground">
+            Información clara, visión nueva
           </p>
         </div>
 
