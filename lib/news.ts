@@ -970,7 +970,9 @@ export function getSection(slug: string): Section | undefined {
 }
 
 export function getBySection(sectionSlug: string): Article[] {
-  return articles.filter((a) => a.section === sectionSlug)
+  return articles
+    .filter((article) => article.section === sectionSlug)
+    .sort((a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured)))
 }
 
 export function getEditorsForSection(sectionSlug: string): Editor[] {
